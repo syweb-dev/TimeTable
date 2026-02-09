@@ -1,70 +1,79 @@
 # TimeTable
 
-TimeTable 是一款面向学生、自律党、备考人群与高效工作者的「时间表导入 & 编辑工具」。
-核心目标：把“别人给的时间表”或“自己写的安排”快速变成可用的日程列表，并支持编辑、提醒、导出与模板复用。
+**Languages:** English (default) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
 
-## 主要优点
+TimeTable is a "timetable import & editing" tool for students, self‑disciplined users, exam prep, fitness routines, and focused work.
+Core goal: quickly turn a shared schedule or your own notes into a usable daily plan, with editing, reminders, export, and template reuse.
 
-- 导入即用：从 Markdown 表格或逐行文本一键解析成时间表。
-- 手动也快：逐行输入与卡片编辑两种模式兼顾速度与精细度。
-- 解析智能：支持多种时间分隔符、时长格式与 emoji 识别。
-- 高容错：错误行高亮提示，允许快速定位修正。
-- 自动补齐：缺失结束时间可用下一条开始时间自动补齐。
-- 支持跨天：晚间到次日的时间段可正确标注与显示。
-- 模板复用：常见日程保存为模板，一键套用到今日。
-- 清晰预览：导入后预览列表，确认无误再导入。
-- 本地离线：无需联网，隐私安全，性能稳定。
-- iOS 体验：移动端友好，随手记录不打断节奏。
+## Key Advantages
 
-## 核心特点
+- Import instantly: parse Markdown tables or line-by-line text into a timetable.
+- Fast manual input: quick list entry plus detailed card editing.
+- Smart parsing: supports multiple time separators, duration formats, and emoji icons.
+- Error tolerant: highlights invalid rows and guides quick fixes.
+- Auto fill: if an end time is missing, uses the next start time by default.
+- Overnight support: handles cross‑day time ranges clearly.
+- Template reuse: save common schedules and apply in one tap.
+- Clear preview: review parsed results before confirming import.
+- Offline first: no network required, privacy‑friendly, stable performance.
+- iOS‑ready: mobile‑first experience for quick capture.
 
-- 多输入形态
-  - Markdown 表格导入
-  - 逐行文本导入
-  - 手动逐条编辑
+## Core Features
 
-- 统一数据结构
-  - 开始时间、结束时间、标题、时长、备注、标签、表情
+- Multiple input formats
+  - Markdown table import
+  - Line-by-line text import
+  - Manual editing
 
-- 关键规则
-  - 时间冲突可提示
-  - 自动排序与补齐
-  - 跨天识别与显示
+- Unified data model
+  - Start time, end time, title, duration, notes, tags, emoji icon
 
-- 模板能力
-  - 新建、复用、快速套用
+- Key rules
+  - Conflict hints
+  - Auto sort and auto fill
+  - Overnight detection and display
 
-- 预览与确认流程
-  - 导入后先预览，确保结果正确再确认导入
+- Templates
+  - Create, reuse, and apply quickly
 
-## 适用场景
+- Preview & confirm flow
+  - Preview first, then confirm import
 
-- 同学/朋友发的时间表，想 5 秒导入。
-- 自己在备忘录写了几行安排，自动转成时间段。
-- 每天结构相似，需要模板快速复用。
+## Use Cases
 
-## MVP 范围（已覆盖）
+- Import a timetable shared by friends in seconds.
+- Convert a few memo lines into structured time blocks.
+- Reuse similar daily routines with templates.
 
-- 逐行文本解析
-- Markdown 表格解析
-- 解析预览与错误高亮
-- 模板保存与套用
-- 基础编辑流程
+## MVP Scope (Covered)
 
-## 未来可扩展方向
+- Line-by-line parsing
+- Markdown table parsing
+- Preview with error highlighting
+- Template save and apply
+- Basic edit flow
 
-- 提醒/闹钟
-- 导出为 Markdown / 文本 / 图片
-- 同步系统日历
-- 时间轴可视化
-- 智能生成时间表
+## Future Extensions
 
-## 兼容与性能
+- Reminders/alarms
+- Export to Markdown/text/image
+- System calendar sync
+- Timeline visualization
+- Smart schedule generation
+
+## Compatibility & Performance
 
 - iOS 16+
-- 本地离线可用
-- 200 行内解析 < 1 秒（本地）
+- Offline supported
+- Parse < 1s for up to 200 rows (local)
+
+## License
+
+MIT License  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+See `LICENSE`.
 
 ---
 
-如需更详细的功能说明、交互原型或测试清单，可继续补充到本 README。
+If you need more detailed specs, interaction prototypes, or QA checklists, expand this README.
