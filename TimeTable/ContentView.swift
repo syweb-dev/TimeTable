@@ -91,7 +91,7 @@ final class AppStore: ObservableObject {
 // MARK: - Models
 
 struct Block: Identifiable, Equatable, Codable {
-    let id = UUID()
+    var id: UUID = UUID()
     var start: String
     var end: String?
     var title: String
@@ -381,6 +381,10 @@ struct ImportView: View {
                             .background(AppTheme.blueDark)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                     }
+                    Text("hint_parse_then_import")
+                        .font(.system(size: 12, weight: .semibold))
+                        .foregroundStyle(AppTheme.navy.opacity(0.55))
+                        .frame(maxWidth: .infinity, alignment: .leading)
 
                     previewSection
 
@@ -592,9 +596,6 @@ struct TemplatesView: View {
 
     private var header: some View {
         HStack {
-            Image(systemName: "chevron.left")
-                .font(.system(size: 18, weight: .semibold))
-                .foregroundStyle(AppTheme.navy.opacity(0.6))
             Spacer()
             Text("tab_templates")
                 .font(.system(size: 24, weight: .semibold))
@@ -619,6 +620,7 @@ struct TemplatesView: View {
                 .background(AppTheme.blueDark)
                 .clipShape(RoundedRectangle(cornerRadius: 14))
         }
+        .padding(.horizontal, 16)
     }
 
     private func templateCard(template: Template, isSelected: Bool) -> some View {

@@ -86,3 +86,4 @@
 "guide_lines" = "One line per block.\nExample:\n12:30-13:00 Wake up 0.5h\n13:00-16:00 Study";
 "action_edit" = "Edit";
 "button_done" = "Done";
+"hint_parse_then_import" = "Please parse first, then confirm import.";

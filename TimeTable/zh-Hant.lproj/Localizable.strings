@@ -86,3 +86,4 @@
 "guide_lines" = "每行一個時間區塊。\n範例：\n12:30-13:00 起床 0.5h\n13:00-16:00 學習";
 "action_edit" = "編輯";
 "button_done" = "完成";
+"hint_parse_then_import" = "請先解析，再確認匯入";

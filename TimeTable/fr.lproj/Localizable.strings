@@ -86,3 +86,4 @@
 "guide_lines" = "Une ligne par bloc.\nExemple :\n12:30-13:00 Réveil 0.5h\n13:00-16:00 Étude";
 "action_edit" = "Modifier";
 "button_done" = "OK";
+"hint_parse_then_import" = "Veuillez d'abord analyser, puis confirmer l'import.";

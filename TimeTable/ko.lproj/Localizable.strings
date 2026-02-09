@@ -86,3 +86,4 @@
 "guide_lines" = "한 줄에 한 블록.\n예시:\n12:30-13:00 기상 0.5h\n13:00-16:00 공부";
 "action_edit" = "편집";
 "button_done" = "완료";
+"hint_parse_then_import" = "먼저 분석한 후 가져오기를 확인하세요.";
