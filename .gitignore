@@ -63,3 +63,7 @@ fastlane/test_output
 
 # macOS
 .DS_Store
+
+# Local SSH key files (generated in workspace by mistake)
+ssh-keygen -t ed25519 -C "you.san1@icloud.com"
+ssh-keygen -t ed25519 -C "you.san1@icloud.com".pub
